@@ -25,7 +25,7 @@
 ## some more methods
 
 # using methods on substrings
-example = "some text here, we text with texting devices but can you see the subtext of the situation"
+#example = "some text here, we text with texting devices but can you see the subtext of the situation"
 # print(example.count("text"))
 # this counts how many times text appears.
 
