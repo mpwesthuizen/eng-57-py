@@ -32,17 +32,34 @@ import time
 # one side needs to result in true to be true
 
 
-weather = input("What is the weather today? ")
-safety_alert = input("Is the safety alert is green, amber or red? ")
+# weather = input("What is the weather today? ")
+# safety_alert = input("Is the safety alert is green, amber or red? ")
+#
+# if weather == "rainy":
+#     time.sleep(2)
+#     print("bring umbrella")
+#
+# elif weather == "stormy" and safety_alert == "red":
+#     print("duck for cover")
+#
+# elif weather == "stormy":
+#     print("Stay inside and watch the storm")
+# else:
+#     print("get naked")
 
-if weather == "rainy":
-    time.sleep(2)
-    print("bring umbrella")
+# FIZZBUZZ ALGO: AKA BIZZ,ZZUU
+x = ""
+while x != 1:
 
-elif weather == "stormy" and safety_alert == "red":
-    print("duck for cover")
+        x = int(input("Select a number (integer) greater than 5 \n press 1 to exit "))
+        if x%3 == 0 and x%5 == 0:
+            print("BIZZZZU")
 
-elif weather == "stormy":
-    print("Stay inside and watch the storm")
-else:
-    print("get naked")
+        elif x%5 == 0:
+            print("BIZZ")
+
+        elif x%3 == 0:
+            print("ZZUU")
+
+        else:
+            "Select a better number"
