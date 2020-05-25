@@ -49,14 +49,15 @@ import datetime
 # Calculate year of birth
 
 # gather details on age and name
-name = input("Please give my your name ")
-age = input('How old are you? ')
+nme = input("Please give my your name ")
+name = nme.capitalize()
+age = int(input('How old are you? '))
 
 current = datetime.datetime.now()
-#current_years = current.year()
-birth_year = current - datetime.timedelta(year= age)
+b_year = current - datetime.timedelta(days= 365.25 *age)
+birth_year = b_year.year
 
-print(f"Wow {name}, you are {age} years old so you were born in {birth_year}")
+print(f"Wow {name}, you are {age} years old so you were born in {birth_year}!")
 # print something like
 
 # OMG <person>, you are <age> years old so you were born in <year>
