@@ -47,26 +47,45 @@ import time
 # else:
 #     print("get naked")
 
-# FIZZBUZZ ALGO: AKA BIZZ,ZZUU
-x = ""
-while True:
+# # FIZZBUZZ ALGO: AKA BIZZ,ZZUU
+# execute = ""
+# while True:
+#
+#         execute = input("Select a number (integer) greater than 5 \n type 'exit' to exit ")
+#         if execute == "exit".lower():
+#             break
+#         execute = int(execute)
+#
+#         if execute%3 == 0 and execute%5 == 0:
+#             print("\nBIZZZZU\n")
+#
+#         elif execute%5 == 0:
+#             print("\nBIZZ\n")
+#
+#         elif execute%3 == 0:
+#             print("\nZZUU\n")
+#
+#         elif execute <= 5:
+#             print("\nWrong, the number needs to over 5 \n")
+#
+#         else:
+#             print("\nSelect a better number. This one is not BIZZUU material.\n")
 
-        x = input("Select a number (integer) greater than 5 \n press 'e' to exit ")
-        if x == "e":
-            break
-        x = int(x)
+# FUNCTIONAL FIZZBUZZ SORTING ALGO:
 
-        if x%3 == 0 and x%5 == 0:
-            print("\nBIZZZZU\n")
+def fizzbuzz(num):
+    for item in range(1,num+1):
+        if item % 15 == 0:
+            print("FIZZBUZZ")
 
-        elif x%5 == 0:
-            print("\nBIZZ\n")
+        elif item % 3 == 0:
+            print("FIZZ")
 
-        elif x%3 == 0:
-            print("\nZZUU\n")
-
-        elif x <= 5:
-            print("\nWrong, the number needs to over 5 \n")
+        elif item % 5 == 0:
+            print("BUZZ")
 
         else:
-            print("\nSelect a better number. This one is not BIZZUU material.\n")
+             print(item)
+
+# console check
+fizzbuzz(100)

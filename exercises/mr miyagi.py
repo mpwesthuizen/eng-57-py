@@ -8,13 +8,33 @@
 
 # as a user I should be able to speak with mr miyagi and get appropriate response s as I go
 
-
+intro = input('???:Hi! I Mr Miyagi. What is your name? ')
 
 # Ask for user input and depending on the response, mr Miyagi will respond.
 
 #
+name = print(f'Mr Miyagi: Ahh! so you {intro}son')
 
 # prompt user for input
+instruction = ""
+while True:
+    instruction = input('What do you want to do? ')
+
+    if instruction == 'Sensei, I am at peace':
+        print('Sometimes, what heart know, head forget')
+        break
+
+    elif instruction == '%?':
+        print('questions are wise, but for now. Wax on, and Wax off!')
+
+    elif instruction != 'Sensei,%':
+        print('You are smart, but not wise - address me as Sensei please')
+
+    elif instruction == '%block%' or instruction == '%blocking%':
+        print('Remember, best block, not to be there...')
+
+    else:
+        print('do not lose focus. Wax on. Wax off.')
 
 # Evaluate each input and print the appropriate responses
 
@@ -32,7 +52,7 @@
 
 # every time you mention 'block' or 'blocking' --> Mr. Miyagi responde with
 
-    # --> 'Remeber, best block, not to be there..'
+    # --> 'Remember, best block, not to be there..'
 
 # anything else you say:
 

@@ -46,30 +46,30 @@
 # concatenation is adding two strings together.
 # casting is setting a variable's datatype.
 
-# x = 2
+# execute = 2
 # y = 5.4
 # z = "there's now a number 25.4 we put a space in!"
 #
-# print(str(x) + str(y) +" "+ z)
+# print(str(execute) + str(y) +" "+ z)
 
-# x = "8"
-# print(type(x))
+# execute = "8"
+# print(type(execute))
 #
-# x = int(x)
-# print(x)
-# print(type(x))
+# execute = int(execute)
+# print(execute)
+# print(type(execute))
 #
-# x = float(x)
-# print(x)
-# print(type(x))
+# execute = float(execute)
+# print(execute)
+# print(type(execute))
 #
-# x = str(x)
-# print(x)
-# print(type(x))
+# execute = str(execute)
+# print(execute)
+# print(type(execute))
 #
-# x = bool(x)
-# print(x)
-# print(type(x))
+# execute = bool(execute)
+# print(execute)
+# print(type(execute))
 
 # booleans and operators
 # a = True

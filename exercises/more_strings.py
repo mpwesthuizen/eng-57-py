@@ -52,10 +52,16 @@ import datetime
 nme = input("Please give my your name ")
 name = nme.capitalize()
 age = int(input('How old are you? '))
+birthday_gone = input('Has your birthday gone? yes/no ')
+if birthday_gone == 'Yes'.lower():
+    birthday_gone = 1
+
+else:
+    birthday_gone = 0
 
 current = datetime.datetime.now()
 b_year = current - datetime.timedelta(days= 365.25 *age)
-birth_year = b_year.year
+birth_year = b_year.year - birthday_gone
 
 print(f"Wow {name}, you are {age} years old so you were born in {birth_year}!")
 # print something like
