@@ -49,9 +49,13 @@ import time
 
 # FIZZBUZZ ALGO: AKA BIZZ,ZZUU
 x = ""
-while x != "e":
+while True:
 
-        x = int(input("Select a number (integer) greater than 5 \n press 'e' to exit "))
+        x = input("Select a number (integer) greater than 5 \n press 'e' to exit ")
+        if x == "e":
+            break
+        x = int(x)
+
         if x%3 == 0 and x%5 == 0:
             print("\nBIZZZZU\n")
 
@@ -65,4 +69,4 @@ while x != "e":
             print("\nWrong, the number needs to over 5 \n")
 
         else:
-            "Select a better number. This one is not BIZZUU material."
+            print("\nSelect a better number. This one is not BIZZUU material.\n")
