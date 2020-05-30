@@ -45,7 +45,7 @@ import time
 # elif weather == "stormy":
 #     print("Stay inside and watch the storm")
 # else:
-#     print("get naked")
+#     print("enjoy the sun")
 
 # # FIZZBUZZ ALGO: AKA BIZZ,ZZUU
 # execute = ""
@@ -73,9 +73,9 @@ import time
 
 # FUNCTIONAL FIZZBUZZ SORTING ALGO:
 
-def fizzbuzz(num):
-    for item in range(1,num+1):
-        if item % 15 == 0:
+def fizzbuzz(num1, num2):
+    for item in range(1,int(num)+1):
+        if item % (3*5) == 0:
             print("FIZZBUZZ")
 
         elif item % 3 == 0:
@@ -87,5 +87,20 @@ def fizzbuzz(num):
         else:
              print(item)
 
-# console check
-fizzbuzz(100)
+start = input("Do you want to play BIZZZZUU? y/n ")
+
+while True:
+    if start.lower() == "n":
+        print("Goodbye!")
+        break
+
+    elif start.lower() == "y":
+        number = input("Enter your number ")
+        if number == "penpineapplepen":
+            break
+
+    fizz = ("Choose your fizz ")
+    buzz = ("Choose your  ")
+    fizzbuzz(fizz, buzz)
+
+# 2h20m
