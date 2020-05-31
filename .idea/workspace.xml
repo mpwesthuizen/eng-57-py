@@ -5,7 +5,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a09ed83-96cf-4e5e-8c48-13d9f5249927" name="Default Changelist" comment="" />
+    <list default="true" id="9a09ed83-96cf-4e5e-8c48-13d9f5249927" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/run_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/testing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +38,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../factory-eng57" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrwes\code\eng57_python\main" />
+      <recent name="C:\Users\mrwes\code\eng57_python\exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_testing">
     <configuration name="Stefan's fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="eng57_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +90,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="control_flow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="eng57_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/control_flow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="dictionairies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="eng57_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,14 +98,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dictionairies" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/dictionairies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionairies/dictionairies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eng57-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mrwes\code\eng57_python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/run_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eng57-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mrwes\code\eng57_python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -129,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mrwes\code\eng57_python\main\testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,10 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_testing" />
+        <item itemvalue="Python.dictionairies" />
+        <item itemvalue="Python.strings" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.Stefan's fizzbuzz" />
-        <item itemvalue="Python.control_flow" />
-        <item itemvalue="Python.dictionairies" />
       </list>
     </recent_temporary>
   </component>
@@ -218,29 +255,49 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="150" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590676658235">
+    <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590931210852">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="150" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1536.824@0.40.1536.824" timestamp="1590676658235" />
-    <state x="165" y="210" key="FileChooserDialogImpl" timestamp="1590858351669">
+    <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824@0.40.1536.824" timestamp="1590931210852" />
+    <state x="150" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590932229176">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="165" y="210" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1590858351669" />
-    <state width="745" height="210" key="GridCell.Tab.0.bottom" timestamp="1590700886683">
+    <state x="150" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1536.824@0.40.1536.824" timestamp="1590932229176" />
+    <state x="484" y="47" key="#dictionairies" timestamp="1590932298039">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1590700886683" />
-    <state width="745" height="210" key="GridCell.Tab.0.center" timestamp="1590700886683">
+    <state x="484" y="47" key="#dictionairies/0.40.1536.824@0.40.1536.824" timestamp="1590932298039" />
+    <state x="484" y="47" key="#run_testing" timestamp="1590931478171">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1590700886683" />
-    <state width="745" height="210" key="GridCell.Tab.0.left" timestamp="1590700886683">
+    <state x="484" y="47" key="#run_testing/0.40.1536.824@0.40.1536.824" timestamp="1590931478171" />
+    <state x="484" y="47" key="#strings" timestamp="1590931523524">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1590700886683" />
-    <state width="745" height="210" key="GridCell.Tab.0.right" timestamp="1590700886683">
+    <state x="484" y="47" key="#strings/0.40.1536.824@0.40.1536.824" timestamp="1590931523524" />
+    <state x="165" y="210" key="FileChooserDialogImpl" timestamp="1590930433525">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1590700886683" />
+    <state x="165" y="210" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1590930433525" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1590934335832">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1590934335832" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1590934335831">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1590934335831" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1590934335831">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1590934335831" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1590934335831">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1590934335831" />
+    <state x="277" y="97" key="SettingsEditor" timestamp="1590931077266">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="277" y="97" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1590931077266" />
   </component>
 </project>
